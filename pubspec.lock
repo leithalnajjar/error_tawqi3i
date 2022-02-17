@@ -254,13 +254,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.12.11"
-  material_color_utilities:
-    dependency: transitive
-    description:
-      name: material_color_utilities
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.1.3"
   meta:
     dependency: transitive
     description:
@@ -543,9 +536,9 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: d1c3e863808187cd1693c8a5a5dc8db3830402ec
-      url: "https://github.com/Tawqi3i/tawqi3i_packages"
+      ref: "506880a"
+      resolved-ref: "506880aa9c32527552d74d0dc305b015b712754a"
+      url: "https://github.com/bdairy/tawqi3i_packages"
     source: git
     version: "0.0.9"
   term_glyph:
@@ -561,7 +554,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.8"
+    version: "0.4.3"
   typed_data:
     dependency: transitive
     description:
@@ -619,5 +612,5 @@ packages:
     source: hosted
     version: "5.3.1"
 sdks:
-  dart: ">=2.16.0 <3.0.0"
+  dart: ">=2.15.0 <3.0.0"
   flutter: ">=2.8.0"
