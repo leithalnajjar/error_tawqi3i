@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: Colors.blue,
       ),
       onGenerateRoute: widget.appRouter.generateRoute,
-       navigatorKey: Tawqi3iPackages.navigatorKey,
+      navigatorKey: Tawqi3iPackages.navigatorKey,
     );
   }
 }
