@@ -254,6 +254,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.12.11"
+  material_color_utilities:
+    dependency: transitive
+    description:
+      name: material_color_utilities
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.3"
   meta:
     dependency: transitive
     description:
@@ -268,20 +275,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.1"
-  native_pdf_renderer:
-    dependency: transitive
-    description:
-      name: native_pdf_renderer
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.0.1"
-  native_pdf_view:
-    dependency: transitive
-    description:
-      name: native_pdf_view
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "5.0.0"
   nested:
     dependency: transitive
     description:
@@ -345,6 +338,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.5"
+  pdfx:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "4446529caebdbc2e8b4c7736258c295adb0bbb32"
+      url: "https://github.com/bdairy/pdfx"
+    source: git
+    version: "2.0.1+1"
   petitparser:
     dependency: transitive
     description:
@@ -355,9 +357,11 @@ packages:
   photo_view:
     dependency: transitive
     description:
-      name: photo_view
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: "23063d5"
+      resolved-ref: "23063d535909027b8e198c2cffa83bf8f0480c96"
+      url: "https://github.com/bluefireteam/photo_view"
+    source: git
     version: "0.13.0"
   pin_code_fields:
     dependency: transitive
@@ -536,8 +540,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "506880a"
-      resolved-ref: "506880aa9c32527552d74d0dc305b015b712754a"
+      ref: pdfx
+      resolved-ref: f92a70ea5b2894c97434cddbc594fc4044a3924d
       url: "https://github.com/bdairy/tawqi3i_packages"
     source: git
     version: "0.0.9"
@@ -554,7 +558,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.3"
+    version: "0.4.8"
   typed_data:
     dependency: transitive
     description:

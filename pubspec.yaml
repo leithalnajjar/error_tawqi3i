@@ -33,7 +33,7 @@ dependencies:
   tawqi3i_packages:
     git:
       url: https://github.com/bdairy/tawqi3i_packages
-      ref: 506880a
+      ref: pdfx
 
 
   # The following adds the Cupertino Icons font to your application.
